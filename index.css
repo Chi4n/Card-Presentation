@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+}
+body {
+  background: #74ebd5; 
+  background: -webkit-linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); 
+  background: linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); 
+}
+.contain {
+  background: rgb(255, 255, 255);
+  height: 650px;
+  margin: auto;
+  width: 450px;
+  margin-top: 5%;
+  border-radius: 15px;
+  -webkit-box-shadow: 23px 7px 69px 19px rgba(-11,52,146,0.33);
+-moz-box-shadow: 23px 7px 69px 19px rgba(-11,52,146,0.33);
+box-shadow: 23px 7px 69px 19px rgba(-11,52,146,0.33);
+}
+
+header {
+  background-color: rgba(250, 235, 215, 0);
+  height: 200px;
+  border-bottom: 3px solid;
+  border-color: #91d0dd;
+  display: grid;
+}
+.background-contain {
+  overflow: hidden;
+  height: 200px;
+}
+header .background {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  padding: 5px auto;
+  border-radius: 15px 15px 0 0px;
+}
+
+.perfil {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  margin: auto;
+  bottom: 110px;
+  border: 3px solid;
+  border-color: #91d0dd;
+  position: relative;
+}
+
+section {
+  background-color: #e8101000;
+  width: 100%;
+  height: 56%;
+  display: grid;
+}
+section .Name-Ubi {
+  height: 30px;
+  margin: auto;
+  text-align: center;
+}
+section h1 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+section h3 {
+  font-size: 15px;
+  font-weight: 390;
+  color: #ffffff;
+  padding-left: 15px;
+}
+section .icon {
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  bottom: 20px;
+  font-size: 20px;
+}
+.Contain-Description {
+  background-color: #ffc77300;
+  height: 200px;
+  margin: auto;
+}
+.Contain-Description p {
+  background-color: #c22fac00;
+  font-weight: 300;
+  height: auto;
+  color: #000000ae;
+  font-size: 17px;
+  text-align: left;
+  padding: 25px;
+  margin-top: 20px;
+}
+section button {
+  background-color: #c22fac00;
+  width: 120px;
+  height: 50px;
+  margin: auto;
+  border-radius: 500px;
+  border: 2px solid;
+  border-color: #8781d58d;
+  color: #8781d5e3;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+  bottom: 30px;
+  cursor: pointer;
+  transition: 1s ease;
+}
+button:hover {
+  background-color: #98c9df47;
+}
+footer {
+  background-color: #e3ff7300;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.Contain-Redes {
+  margin: auto;
+  height: 65px;
+  width: 100%;
+  width: 200px;
+  margin-top: 8px;
+  border-top: 2px solid;
+  border-width: 1px;
+  border-left: 1px solid;
+  border-color: rgba(169, 169, 169, 0.72);
+}
+.a1 {
+  border-left: none;
+}
+
+.Contain-Redes h2 {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 8px;
+  color: #474646e6;
+  font-weight: 300;
+}
+.redes {
+  background-color: #c22fac00;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+.icons {
+  font-size: 25px;
+  font-weight: 300;
+  color: #474646da;
+}
+.ig {
+  font-size: 15px;
+  padding-top: 5px;
+  color: #474646da;
+}
