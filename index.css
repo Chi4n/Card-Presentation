@@ -101,7 +101,7 @@ section .icon {
   padding: 25px;
   margin-top: 20px;
 }
-section button {
+section a{
   background-color: #c22fac00;
   width: 120px;
   height: 50px;
@@ -112,12 +112,15 @@ section button {
   color: #8781d5e3;
   font-size: 13px;
   font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
   position: relative;
   bottom: 30px;
   cursor: pointer;
   transition: 1s ease;
 }
-button:hover {
+a:hover {
   background-color: #98c9df47;
 }
 footer {
@@ -165,4 +168,9 @@ footer {
   font-size: 15px;
   padding-top: 5px;
   color: #474646da;
+}
+@media only screen and (max-width: 600px) {
+  .contain{
+    margin-top: 20%;
+  }
 }

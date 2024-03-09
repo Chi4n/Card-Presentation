@@ -1,20 +1,12 @@
-const apiUrl = "https://graph.instagram.com/me/";
-const access_token =
-  "IGQWROY2dOZA2tNQjRaWjctVnRhWEtNX21JN1RxVEtnUl9PQk5VZAm9USFJndnBhTWZALTUs3MEFyNmFzSmVCYkw2c1hYX0hCMTRBaFB6cmd4cnRVeG1MMDZAGV3A1cWlrTWtJNkxyRUJVQWtyUk5rWlRoMDN2NENGUE0ZD";
-// const fields = "id,username";
-
-const url = `${apiUrl}?&access_token=${access_token}`;
-
+const url = "./instagramfalse.json";
 fetch(url)
-.then(response =>{
-    if(!response.ok){
-        console.log(Error())
-    }
-
-    return response.json()
-})
-.then(data=>{
-    console.log(data)
-    const result = JSON.stringify(data)
-    
-})
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((data) => {
+      const Post = (document.getElementById("Post").innerHTML = data.Post);
+      const Followers = (document.getElementById("Followers").innerHTML =
+        data.Followers);
+      const Following = (document.getElementById("Following").innerHTML =
+        data.Following);
+    });
+  });
